@@ -1,0 +1,1 @@
+mlr --csv --fs ';' --implicit-csv-header --headerless-csv-output cat --filename then sort -n 2 database_nvar1_len_[1,2,3,4,5,6,7,8,9]_fitted.txt.gz database_nvar1_len_10_fitted.txt.gz | gzip > ranked_mse_len10.txt.gz

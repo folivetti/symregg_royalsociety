@@ -1,0 +1,1 @@
+mlr --csv --fs ';' --implicit-csv-header --headerless-csv-output cat --filename then sort -n 2 esr_expressions_nvar2_len10_fitted.txt.gz | gzip > ranked_mse_len10.txt.gz
